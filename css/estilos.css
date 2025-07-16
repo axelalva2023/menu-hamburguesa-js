@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+.logo{
+    width: 100px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: gray;
+}
+
+header .nav .nav-list{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+header .nav .nav-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.comidas .comidas-contenedor div img{
+width: 300px;
+object-fit: cover;
+}
+
+.comidas .comidas-contenedor div{
+    border: 2px red solid;
+    width: 304px;
+    height: 307px;
+    margin: 10px;
+    text-align: center;
+}
+
+.comidas .comidas-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.comidas .comidas-contenedor div p{
+    margin-bottom: 15px;
+}
+.comidas .comidas-contenedor div a{
+    text-decoration: none;
+    color: beige;
+    background-color: black;
+    padding: 10px;
+}
+
+.abrir-menu, .cerrar-menu{
+    display: none;
+}
+
+@media screen and (max-width: 550px){
+    .abrir-menu, .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 25px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu{
+        color: black;
+    }
+
+    .cerrar-menu{
+        color: aliceblue;
+    }
+
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        padding: 10px;
+    }
+
+    .nav.visible{ /*Axel aca es una combinacion de clases un elemento html tiene dos clases*/
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list{
+        flex-direction: column;
+        align-items: end;
+    }
+    header .nav .nav-list li a{
+        color: aliceblue;
+    }
+
+}
