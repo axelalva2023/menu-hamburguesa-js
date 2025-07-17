@@ -63,9 +63,9 @@ object-fit: cover;
 
 .nosotros .contenedor-imagen{
     position: relative;
-    width: 45%; /* 👈 Axel Igual que el otro div */
+    width: 500px; /* 👈 Axel Igual que el otro div */
     max-width: 500px; /* Límite opcional en desktop */
-    margin: 0 auto; /* Centrado */
+     /* Centrado */
 }
 
 .nosotros .contenedor-imagen .texto-sobre-imagen{
@@ -88,7 +88,7 @@ object-fit: cover;
     
 }
 .nosotros div{
-    width: 45%; /* 👈 Axel Igual que el otro div */
+    width: 50%; /* 👈 Axel Igual que el otro div */
     text-align: center;
 }
 .nosotros img{
