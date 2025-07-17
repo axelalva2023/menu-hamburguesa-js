@@ -63,6 +63,7 @@ object-fit: cover;
 
 .nosotros .contenedor-imagen{
     position: relative;
+    width: 45%; /* 👈 Axel Igual que el otro div */
 }
 
 .nosotros .contenedor-imagen .texto-sobre-imagen{
@@ -81,11 +82,15 @@ object-fit: cover;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 20px;
+    flex-wrap: wrap;
     
 }
+.nosotros div{
+    width: 45%; /* 👈 Axel Igual que el otro div */
+    text-align: center;
+}
 .nosotros img{
-    width: 700px;
+    width: 100%; /* 👈Axel Para que se ajuste al ancho del contenedor */
     
 }
 
