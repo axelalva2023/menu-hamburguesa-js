@@ -6,7 +6,7 @@
 
 h1{
     text-align: center;
-    background-color: yellow;
+    background-color: #5E936C;
     padding: 50px;
 }
 .logo{
@@ -18,7 +18,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: gray;
+    background-color: #3E5F44;
 }
 
 header .nav .nav-list{
@@ -41,6 +41,9 @@ object-fit: cover;
     color: aliceblue;
     padding: 20px;
 
+}
+.comidas{
+    background-color: #93DA97;
 }
 
 .comidas .comidas-contenedor div{
@@ -95,7 +98,7 @@ object-fit: cover;
     justify-content: space-evenly;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    background-color: pink;
+    background-color: #93DA97;
     padding: 50px;
     
 }
@@ -134,7 +137,7 @@ object-fit: cover;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: aquamarine;
+    background-color: #93DA97;
     padding: 50px;
 }
 .nosotros div{
@@ -149,6 +152,9 @@ object-fit: cover;
 
 .contacto .contenedor-mapa{
     width: 600px;
+}
+.contacto{
+    background-color: #93DA97;
 }
 
 .contacto .contenedor-mapa iframe{
@@ -169,7 +175,7 @@ object-fit: cover;
 }
 
 form{
-    background-color: aqua;
+    background-color: #E8FFD7;
     padding: 20px;
     border: red 2px solid;
     height: 400px;
@@ -185,6 +191,10 @@ form textarea{
 }
 form .button-container{
     text-align: center;
+}
+
+footer{
+    background-color: #E8FFD7;
 }
 
 @media screen and (max-width: 550px){
