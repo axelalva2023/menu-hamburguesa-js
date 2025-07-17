@@ -64,6 +64,8 @@ object-fit: cover;
 .nosotros .contenedor-imagen{
     position: relative;
     width: 45%; /* 👈 Axel Igual que el otro div */
+    max-width: 500px; /* Límite opcional en desktop */
+    margin: 0 auto; /* Centrado */
 }
 
 .nosotros .contenedor-imagen .texto-sobre-imagen{
@@ -91,7 +93,8 @@ object-fit: cover;
 }
 .nosotros img{
     width: 100%; /* 👈Axel Para que se ajuste al ancho del contenedor */
-    
+    height: auto;
+    display: block;
 }
 
 @media screen and (max-width: 550px){
@@ -151,8 +154,11 @@ object-fit: cover;
         
         
     }
-    .nosotros img{
-        width: 400px;
-        
-    }
+    .nosotros > div,
+  .contenedor-imagen {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+    
+
 }
