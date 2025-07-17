@@ -6,6 +6,8 @@
 
 h1{
     text-align: center;
+    background-color: yellow;
+    padding: 50px;
 }
 .logo{
     width: 100px;
@@ -31,6 +33,13 @@ header .nav .nav-list li a{
 .comidas .comidas-contenedor div img{
 width: 300px;
 object-fit: cover;
+}
+.comidas h2{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+
 }
 
 .comidas .comidas-contenedor div{
@@ -60,6 +69,45 @@ object-fit: cover;
 .abrir-menu, .cerrar-menu{
     display: none;
 }
+.servicios .contenedor-imagen{
+    position: relative;
+    width: 500px; /* 👈 Axel Igual que el otro div */
+    max-width: 500px; /* Límite opcional en desktop */
+     /* Centrado */
+}
+.servicios .contenedor-imagen .texto-sobre-imagen{
+    position: absolute;
+    bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 10px;
+      font-family: monospace;
+      font-size: 14px;
+      text-align: center;
+}
+
+.servicios{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    background-color: pink;
+    padding: 50px;
+    
+}
+
+.servicios div{
+    width: 50%; /* 👈 Axel Igual que el otro div */
+    text-align: center;
+}
+.servicios img{
+    width: 100%; /* 👈Axel Para que se ajuste al ancho del contenedor */
+    height: auto;
+    display: block;
+}
 
 .nosotros .contenedor-imagen{
     position: relative;
@@ -85,7 +133,8 @@ object-fit: cover;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
+    background-color: aquamarine;
+    padding: 50px;
 }
 .nosotros div{
     width: 50%; /* 👈 Axel Igual que el otro div */
@@ -95,6 +144,46 @@ object-fit: cover;
     width: 100%; /* 👈Axel Para que se ajuste al ancho del contenedor */
     height: auto;
     display: block;
+}
+
+.contacto .contenedor-mapa{
+    width: 600px;
+}
+
+.contacto .contenedor-mapa iframe{
+    width: 100%
+}
+.contacto h3{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+.contacto .contenedor-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+form{
+    background-color: aqua;
+    padding: 20px;
+    border: red 2px solid;
+    height: 400px;
+}
+
+form input{
+    width: 100%;
+    margin-bottom: 5px;
+}
+form textarea{
+    width: 100%;
+    margin-bottom: 5px;
+}
+form .button-container{
+    text-align: center;
 }
 
 @media screen and (max-width: 550px){
