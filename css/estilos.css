@@ -4,14 +4,38 @@
     box-sizing: border-box;
 }
 
-h1{
-    text-align: center;
-    background-color: #5E936C;
-    padding: 50px;
-}
+
 .logo{
     width: 100px;
     /*jaaa*/
+}
+.hero{
+    width: 100%; 
+    height: calc(100vh - 86.63px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/comida-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero h1{
+    color: black;
+    text-align: center; 
+    font-weight: normal;
+    font-size: 40px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.hero h3{
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
 }
 header{
     display: flex;
