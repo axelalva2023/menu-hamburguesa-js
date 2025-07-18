@@ -237,10 +237,11 @@ footer img:hover{
 
 .redes-sociales{
     text-align: center;
-    color: aliceblue;
+    color: black;
 }  
 .redes-sociales a{
     text-decoration: none;
+    color: black;
 } 
 
  .enlaces{
@@ -253,6 +254,7 @@ footer img:hover{
 
 .enlaces a{
     text-decoration: none;
+    color:black
     
 } 
 
@@ -317,6 +319,7 @@ footer img:hover{
     .nosotros > div,
   .contenedor-imagen {
     width: 100% !important;
+    margin-bottom: 20px;
   }
   .servicios{
     display: flex;
@@ -328,5 +331,6 @@ footer img:hover{
 .servicios > div,
   .contenedor-imagen {
     width: 100% !important;
+    margin-bottom: 20px;
   }
 }
