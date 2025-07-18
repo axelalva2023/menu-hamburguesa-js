@@ -309,7 +309,7 @@ footer img:hover{
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 5px;
+        padding: 20px;
         flex-wrap: wrap;
         
         
@@ -317,7 +317,6 @@ footer img:hover{
     .nosotros > div,
   .contenedor-imagen {
     width: 100% !important;
-    margin-bottom: 20px;
   }
   .servicios{
     display: flex;
@@ -329,6 +328,5 @@ footer img:hover{
 .servicios > div,
   .contenedor-imagen {
     width: 100% !important;
-    margin-bottom: 20px;
   }
 }
