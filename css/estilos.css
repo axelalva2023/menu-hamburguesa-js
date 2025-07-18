@@ -24,18 +24,18 @@
 }
 
 .hero h1{
-    color: black;
+    color: aliceblue;
     text-align: center; 
     font-weight: normal;
     font-size: 40px;
-    border: 2px solid black;
+    border: 2px solid aliceblue;
     padding: 10px;
 }
 
 .hero h3{
     margin-top: 10px;
     font-size: 25px;
-    color: black;
+    color: aliceblue;
 }
 header{
     display: flex;
