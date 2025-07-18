@@ -138,7 +138,6 @@ object-fit: cover;
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: #93DA97;
-    padding: 50px;
 }
 .nosotros div{
     width: 50%; /* 👈 Axel Igual que el otro div */
