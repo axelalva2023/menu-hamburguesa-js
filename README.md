@@ -39,4 +39,3 @@ Puedes agregar aquí una captura de pantalla del sitio si lo deseas.
 
 🧑‍💻 Autor
 Desarrollado por Axel Alva
-📎 Repositorio en GitHub(https://github.com/axelalva2023)
